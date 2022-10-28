@@ -14,5 +14,4 @@ module MyEnumerable
     each { |e| arr.push(e) if yield(e) }
     arr
   end
-
 end
